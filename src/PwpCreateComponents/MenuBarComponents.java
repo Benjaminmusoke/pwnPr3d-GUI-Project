@@ -462,6 +462,12 @@ public class MenuBarComponents extends JMenuBar {
         menus[1].add(separator);
 
 
+        items=new JMenuItem("Fill Color");
+        items.getAccessibleContext().setAccessibleDescription("Find And Replace");
+        menus[1].add(items);
+
+        separator=new JSeparator();
+        menus[1].add(separator);
 
         items=new JMenuItem("Preferences");
         items.getAccessibleContext().setAccessibleDescription("Preference");
