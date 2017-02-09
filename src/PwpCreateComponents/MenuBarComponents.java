@@ -75,7 +75,7 @@ public class MenuBarComponents extends JMenuBar {
 
 
 
-        items=new JMenuItem("Setting",new ImageIcon(getClass().getResource("/PwpIcons/general/settings.png")));
+        items=new JMenuItem("Setting",new ImageIcon(getClass().getResource("/PwpIcons/actions/copy.png")));
         items.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S,KeyEvent.VK_S,getAutoscrolls()));
         menus[0].add(items);
 
@@ -134,7 +134,7 @@ public class MenuBarComponents extends JMenuBar {
         items.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_I,KeyEvent.VK_S,getAutoscrolls()));
         menus[0].add(items);
 
-        items=new JMenuItem("Export",new ImageIcon(getClass().getResource("/PwpIcons/graph/export.png")));
+        items=new JMenuItem("Export",new ImageIcon(getClass().getResource("/PwpIcons/actions/export.png")));
         menus[0].add(items);
 
         items=new JMenuItem("Setting Repository");
